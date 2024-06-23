@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <img src="./image/LOGO 2.png" class="logo">
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#company">OUR COMPANY</a></li>
+                <li><a href="#services">OUR SERVICES</a></li>
+                <li><a href="#sustainability">OUR SUSTAINABILITY</a></li>
+                <li><a href="#industry">OUR INDUSTRY</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="video-container">
+        <video autoplay loop muted>
+            <source src="./image/background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <section>
+        <div class="built">
+            <h1>We have Built A LEGACY</h1>
+            <p>Manufacturing Corduroy & Velveteen fabrics since 1981</p>
+        </div>
+        <section class="about-us">
+            <div class="box">
+                <h1>ABOUT US</h1>
+                <p>
+                    Originally from France, SELVYTEX was founded in 2013. Having Indian connections,
+                    we set up our own clothing factory at the heart of textile hub of India, Tirupur
+                    that makes a contribution to 90% of total cotton knitwear exports from country.
+                </p>
+                <button class="read-more-btn">Read More</button>
+            </div>
+        </section>
+    </section>
+    <section class="achive">
+        <img src="./image/star.png" class="img1">
+        <img src="./image/rectangle.jpg" class="img2">
+    </section>
+    <section class="service">
+        <h1>OUR SERVICES</h1>
+        <div class="cat">
+            <div>
+                <img src="./image/patter.jpg" class="pattern">
+                <p style="font-style: italic;" class="text">Pattern making</p>
+            </div>
+            <div>
+                <img src="./image/fabric.jpg" class="fabric">
+                <p style="font-style: italic;" class="text">Fabric and supplies <br> sourcing</p>
+            </div>
+            <div>
+                <img src="./image/production.jpg" class="production">
+                <p style="font-style: italic;" class="text">Production</p>
+            </div>
+            <div>
+                <img src="./image/quality.jpg" class="quality">
+                <p style="font-style: italic;" class="text">Quality control</p>
+            </div>
+            <div>
+                <img src="./image/logistic.jpg" class="logistic">
+                <p style="font-style: italic;" class="text">Logistics</p>
+            </div>
+        </div>
+    </section>
+    <section >
+        <div class="product">
+            <img src="./image/collage.png" class="collage">
+            <div class="our">
+                <h1>Our Products</h1>
+                <p>
+                    Examples of products made for our trusted clients.
+                </p>
+                <button class="know-more-btn">Know More</button>
+            </div>
+            </div>
+        </div>
+        <div class="fab">
+            <div class="our1">
+                <h1>Our Fabrics</h1>
+                <p>
+                    A few samples of what we are able to achieve.
+                </p>
+                <button class="know-more-btn">Know More</button>
+            </div>
+            <img src="./image/cloth.jpg" class="cloth">
+        </div>
+    </section>
+    <section>
+        <img src="./image/brand.jpg" class="brand">
+        <div class="global">
+            <h1>GLOBAL PRESENCE</h1>
+            <img src="./image/map.png">
+            <p>Velcord Textiles brings Quality Textiles to Global Markets and is Trusted by Leading Fashion and
+                <br>Lifestyle Brands Across the Globe</p>
+        </div>
+    </section>
+    <section class="together">
+        <div class="box1">
+            <h1>Lets work together!</h1>
+            <p>
+                Feel free to make an enquiry about your <br> requirements, we will get <br> back to you.
+            </p>
+            <button class="read-more-btn">Make enquiry</button>
+        </div>
+    </section>
+    <script>
+        function toggleMenu() {
+            var nav = document.querySelector('nav ul');
+            nav.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>
